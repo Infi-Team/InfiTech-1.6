@@ -67,3 +67,4 @@ When reporting issues make sure to:
 * Provide the best description of problem you are having (include Screenshots if you want)
 * Provide crash report file if you crashed (use pastebin.com)
 * Have FML log ready if that will be needed
+* Don't report crafting issues to mod developers. Report them in here, since I am the one changing recipes. So any recipe problems (crafting and unification) report to ME!
