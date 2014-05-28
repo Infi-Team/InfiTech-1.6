@@ -61,6 +61,7 @@ Issue Tracker and Changelogs
 * Waila by ProfMobius - http://www.mobiusstrip.eu/
 * Xact by Xhamolk_ - http://www.minecraftforum.net/topic/1551715-xact-xhamolk-s-advanced-crafting-table-mc-164/
 * IC2FixesGT by Hunterz - http://forum.industrial-craft.net/index.php?page=Thread&threadID=10433
+* Underground Biomes by Grom PE, Exterminator Jeff - http://www.minecraftforum.net/topic/1593704-16x15x147-underground-biomes-forge-smp-compatible/
 
 ### Issue Reporting
 When reporting issues make sure to:
