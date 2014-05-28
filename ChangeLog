@@ -1,4 +1,24 @@
 #########
+# 1.0.8 #
+#########
+
+Added Mods:
+- Underground Biomes
+Updated Mods:
+- EnderIO to 1.0.6.376
+- ExtraCells to 1.6.9c
+- Galacticraft (+modules) to 2.0.12.1056
+- Logistic Pipes to 0.7.4.dev.217
+Disabled Mods:
+- BiblioWoods (BoP)
+- Biomes o plenty
+
+Config Changes:
+- Dusts are unifying to IC2 version if they can, instead of GregTech
+- Due to disabled BoP removed Minetweaker scripts for BoP staff
+
+
+#########
 # 1.0.7 #
 #########
 
