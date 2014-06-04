@@ -1,4 +1,17 @@
 #########
+# 2.0.1 # - WORLD RESET REQUIRED
+#########
+
+Added Mods:
+- Extrabiomes XL
+
+Config Changes:
+- Nickel ore gen boosted: will spawn in 1 out of 12 chunks with cluster amount of 16 ores
+- Reenabled IC2 Copper and Tin
+- Density of IC2 ores dropped from 1.5 to 0.8
+- Changed IDs for MPS Tinker Table and Lux Capacitor
+
+#########
 # 1.0.9 #
 #########
 
