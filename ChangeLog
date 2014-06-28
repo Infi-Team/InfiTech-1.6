@@ -1,4 +1,32 @@
 #########
+# 2.1.3 #
+#########
+
+Updated mods:
+- Extra Cells to 1.6.9d
+- Galacticraft (all 3 modules) to 2.0.13.1080
+- Jabba to 1.1.4
+- OpenEye to 0.6
+
+Added mods:
+- Bibliowoods [ExtraBiomesXL]
+- Statues
+- Hats
+- PneumaticCraft
+
+Config Changes:
+- Added more ores to IC2 Miner whitelist
+- Water is no longer infinite with sourceblocks
+- Recipes in PneumaticCraft tweaked
+- Changed Recipe for EnderIO capacitors (Basic and Dual-layered)
+- NEI in utility mode by default after each update
+- Yellorite ore inside SAGMill will produce Yellorium dust instead of Uranium Dust
+- Electrical Steel can't be made with AE Silicon. EnderIO silicon is needed.
+- Conduit probe can't be made with AE Silicon. EnderIO silicon is needed.
+- Powered light can't be made with AE Silicon. EnderIO silicon is needed.
+- EnderIO Alloy Smelter will no longer work as regular furance, to prevent exploits.
+
+#########
 # 2.0.2 #
 #########
 
