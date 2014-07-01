@@ -25,23 +25,135 @@ ore dictionary.
   <recipeGroup name="Thermal Expansion" enabled="false"/>
 -->
 
-<vanillaFurnaceRecipes enabled="false"/>
-
 <AlloySmelterRecipes>
 
-	<recipeGroup name="EnderIO">
+  <recipeGroup name="EnderIO">
 	
-	  <recipe name="Electrical Steel" energyCost="1000">
-	    <input>
-		  <itemStack itemID="265" />
-		  <itemStack itemID="263" />
-		  <itemStack itemID="8793" />
-		</input>
-		<output>
-		  <itemStack modID="EnderIO" itemName="enderIO:itemAlloy" itemMeta="0" exp="0.5"/>
-		</output>
-	  </recipe>
-	</recipeGroup>
- 
+	<recipe name="Electrical Steel" energyCost="1000">
+	  <input>
+		<itemStack itemID="265" />
+		<itemStack itemID="263" />
+		<itemStack itemID="8793" />
+	  </input>
+	  <output>
+		<itemStack modID="EnderIO" itemName="enderIO:itemAlloy" itemMeta="0" exp="0.5"/>
+	  </output>
+	</recipe>
+
+
+  </recipeGroup>
+
+
+  <recipeGroup name="GregTech">
+	
+	<recipe name="Bronze" energyCost="750">
+	  <input>
+		<itemStack itemID="30067" itemMeta="0" number="3"/> <!-- Copper Ingot -->
+		<itemStack itemID="30067" itemMeta="1"/> <!-- Tin Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="30067" itemMeta="2" exp="0.25"/> <!-- Bronze Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="Brass" energyCost="1000">
+	  <input>
+		<itemStack itemID="30067" itemMeta="0" number="3"/> <!-- Copper Ingot -->
+		<itemStack itemID="21256" itemMeta="24"/> <!-- Zinc Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="25" number="4" exp="0.25"/> <!-- Brass Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="Cupronickel" energyCost="500">
+	  <input>
+		<itemStack itemID="30067" itemMeta="0"/> <!-- Copper Ingot -->
+		<itemStack itemID="21256" itemMeta="28"/> <!-- Nickel Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="45" number="2" exp="0.25"/> <!-- Cupronickel Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="Nichrome" energyCost="1250">
+	  <input>
+		<itemStack itemID="21256" itemMeta="20"/> <!-- Chrome Ingot -->
+		<itemStack itemID="21256" itemMeta="28" number="4"/> <!-- Nickel Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="46" number="5" exp="0.3"/> <!-- Nichrome Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="SolderingAlloy" energyCost="2500">
+	  <input>
+		<itemStack itemID="30067" itemMeta="1" number="9"/> <!-- Tin Ingot -->
+		<itemStack itemID="21256" itemMeta="31"/> <!-- Antimony Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="41" number="10" exp="0.5"/> <!-- Soldering Alloy Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="BatteryAlloy" energyCost="1250">
+	  <input>
+		<itemStack itemID="21256" itemMeta="23" number="4"/> <!-- Lead Ingot -->
+		<itemStack itemID="21256" itemMeta="31"/> <!-- Antimony Ingot -->
+	   </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="42" number="5" exp="0.3"/> <!-- Battery Alloy Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="Magnalium" energyCost="750">
+	  <input>
+		<itemStack itemID="31994" itemMeta="11018"/> <!-- Magnesium Ingot -->
+		<itemStack itemID="21256" itemMeta="18" number="2"/> <!-- Aluminium Ingot -->
+	  </input>
+	  <output>
+		<itemStack itemID="21256" itemMeta="40" number="3" exp="0.25"/> <!-- Magnalium Ingot -->
+	  </output>
+	</recipe>
+
+	<recipe name="RedAlloy" energyCost="250">
+	  <input>
+		<itemStack itemID="30067" itemMeta="0"/> <!-- Copper Ingot -->
+		<itemStack itemID="331" number="4"/> <!-- Redstone -->
+	  </input>
+	  <output>
+		<itemStack itemID="31994" itemMeta="11308" exp="0.20"/> <!-- Red Alloy Ingot-->
+	  </output>
+	</recipe>
+
+
+  </recipeGroup>
+
+  <recipeGroup name="Thermal Expansion">
+
+    <recipe name="Electrum Ingot" energyCost="500">
+      <input>
+        <itemStack itemID="266"/> <!-- Gold Ingot -->
+        <itemStack itemID="21256" itemMeta="17"/> <!-- Silver Ingot-->
+      </input>            
+      <output>
+       <itemStack itemID="21256" itemMeta="21" number="2" exp="0.25"/> <!-- Electrum Ingot -->
+      </output>
+    </recipe>
+    
+    <recipe name="Invar Ingot" energyCost="750">      
+      <input>
+        <itemStack itemID="21256" itemMeta="28"/> <!-- Nickel Ingot -->
+        <itemStack itemID="265" number="2"/> <!-- Iron Ingot -->
+      </input>
+      <output>
+       <itemStack itemID="21256" itemMeta="29" number="3" exp="0.25"/> <!-- Invar Ingot -->
+      </output>
+    </recipe>
+
+  </recipeGroup>
+
+  <vanillaFurnaceRecipes enabled="false"/>
+
 </AlloySmelterRecipes>  
 
