@@ -72,3 +72,5 @@ When reporting issues make sure to:
 
 ### Important for using dev configs
 I made these configs available for public so you can tinker with them. WARNING! I hold no responsibility if it will break something in your world!
+
+Also note that sometimes there is not only config files update, but sometimes the mods are updated as well.
