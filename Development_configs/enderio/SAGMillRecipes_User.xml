@@ -1,0 +1,116 @@
+<!--
+This is the user configurable SAG Mill recipe file. This file will not be modified or removed by EnderIO.
+
+Adding new Recipes:
+For details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+Removing Recipes:
+To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+<recipeGroup name="Forestry" enabled="false"/>
+
+To disable individual recipes, simply provide an invalid recipe for them:
+
+<recipeGroup name="Applied Energistics">
+  <recipe name="CertusQuartzOre"/>
+</recipeGroup>
+
+To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as
+found in the core file.
+ 
+-->
+
+<SAGMillRecipes>
+
+<!-- Disables all recipes in the group 'Vanilla'
+<recipeGroup name="Vanilla" enabled="false"/> 
+-->
+
+<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
+  <recipeGroup name="Thermal Expansion">
+  
+    <recipe name="Obsidian" energyCost="400">
+      <input>
+        <itemStack itemID="49" />
+      </input>      
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+    
+</recipeGroup> 
+-->
+
+<!-- Disables the glass recipes in the group 'Vanilla' 
+<recipeGroup name="Vanilla"> 
+  <recipe name="Glass"/> 
+</recipeGroup>
+-->
+
+
+<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
+<recipeGroup name="Vanilla">
+  <recipe name="Glass" energyCost="120"> 
+      <input>
+        <itemStack itemID="20" />
+      </input>
+      <output>
+        <itemStack itemID="264" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+<!-- Adding a new recipe to a new group -->
+  <recipeGroup name="Applied Energistics">
+  
+    <recipe name="NetherQuartz" energyCost="240">
+      <input>
+        <itemStack itemID="406" />
+      </input>
+      <output>
+        <itemStack itemID="31968" itemMeta="22" />
+      </output>
+    </recipe>
+	
+	<recipe name="CertusQuartzOre" energyCost="240">
+	  <input>
+	    <itemStack oreDictionary="oreCertusQuartz" />
+	  </input>
+	  <output>
+	    <itemStack itemID="31968" itemMeta="6" />
+		<itemStack itemID="31968" itemMeta="7" />
+	  </output>
+	</recipe>
+	
+	<recipe name="CertusQuartzCrystal " energyCost="240">
+	  <input>
+	    <itemStack oreDictionary="crystalCertusQuartz" />
+	  </input>
+	  <output>
+	    <itemStack itemID="31968" itemMeta="7" />
+	  </output>
+	</recipe>
+	
+  </recipeGroup> 
+  
+  <recipeGroup name="BigReactors">
+	<!--Metals -->
+	<recipe name="YelloriteOre" energyCost="360">
+	  <input>
+	    <itemStack oreDictionary="oreYellorite" />
+	  </input>
+	  <output>
+	    <itemStack oreDictionary="dustYellorium" number="2" />
+		<itemStack oreDictionary="dustCyanite" number="1" chance="0.05" />
+	  </output>
+	</recipe>
+  </recipeGroup>
+
+</SAGMillRecipes>
