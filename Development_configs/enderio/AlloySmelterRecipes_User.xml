@@ -52,7 +52,7 @@ ore dictionary.
 		<itemStack itemID="30067" itemMeta="1"/> <!-- Tin Ingot -->
 	  </input>
 	  <output>
-		<itemStack itemID="30067" itemMeta="2" exp="0.25"/> <!-- Bronze Ingot -->
+		<itemStack itemID="30067" itemMeta="2" number="4" exp="0.25"/> <!-- Bronze Ingot -->
 	  </output>
 	</recipe>
 
