@@ -1,4 +1,4 @@
-## INFINITY modpack
+## INFITECH modpack
 
 Issue Tracker and Changelogs
 
