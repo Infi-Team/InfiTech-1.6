@@ -1,4 +1,26 @@
 #########
+# 2.1.4 #
+#########
+
+Updated mods:
+- Big Reactors to 0.3.4A2
+- Galacticraft (all 3 modules) to 2.0.14.1086
+- LogisticsPipes to 0.7.4.dev.279
+- MobiusCore to 1.2.2
+- FMP Integration to 1.2.4
+
+Config Changes:
+- Unified Flour to AE version
+- Unified Sulfur to RC version
+- Fixed recipe for PneumaticCraft Kinetic Compressor
+- Lowered fuel usage of Big Reactors
+- Added recipes to EnderIO Alloy Smelter to be in-par with GT Alloy Smelter
+- Fixed crafting of Tinted Glass Panes
+- Fixed exploit with smelting Iron Nuggets -> Steel Nuggets
+- Fixed Plugins for Forestry Barrel recipe (and tweaked it a bit)
+- Added few stone blocks to oreDictionary
+
+#########
 # 2.1.3 #
 #########
 
