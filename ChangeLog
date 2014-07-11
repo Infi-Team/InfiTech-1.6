@@ -1,4 +1,25 @@
 #########
+# 2.1.5 #
+#########
+
+Updated mods:
+- Carpenter's Blocks to 2.1.2
+- Extra Cells to 1.6.9e
+- Galacticraft (all 3 modules) to 2.0.14.1088
+- LogisticsPipes to 0.7.4.dev.289
+- Sync to 2.2.3
+
+Config Changes:
+- Fixed Infinite power exploit with AE and GC
+- Buttons can be crafted again
+- Button Panel can be now crafted again with Assembling Machine
+- Energy Storage Crafting recipe now wants ANY wood planks instead of only OAK
+- Moved GT and IC2 related "mine-tweaks" to separate configs, extras.cfg is now mostly for recipe fixes and misc stuff
+- Rebalanced BR power production: Bit nerfed power production and more fuel usage to balance it with "cheap" recipe
+- EU can now be transfered on Aluminium Wires but be carefull. Using special GC version which allows the explosions of GT machines, you have been warned.
+- Conversion ratio for RF <> EU is used universal: 4RF = 1EU
+
+#########
 # 2.1.4 #
 #########
 
