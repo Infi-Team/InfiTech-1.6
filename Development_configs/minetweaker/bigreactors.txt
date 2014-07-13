@@ -1,0 +1,68 @@
+# Yellowrium Fuel Rod
+recipes.remove(itemFuelRodYellorium);
+recipes.addShaped(itemFuelRodYellorium, [
+	[plateSteel, ingotGraphite, plateSteel],
+	[plateStainlessSteel, ingotYellorium, plateStainlessSteel],
+	[plateSteel, ingotGraphite, plateSteel]]);
+	
+# Reactor Casing
+recipes.remove(itemReactorCasing);
+recipes.addShaped(itemReactorCasing * 4, [
+	[plateStainlessSteel, ingotGraphite, plateStainlessSteel],
+	[ingotGraphite, ingotYellorium, ingotGraphite],
+	[plateStainlessSteel, ingotGraphite, plateStainlessSteel]]);
+	
+# Reactor Coolant Port
+recipes.remove(itemPortReactorCoolant);
+recipes.addShaped(itemPortReactorCoolant, [
+	[itemReactorCasing, null, itemReactorCasing],
+	[plateStainlessSteel, bucketEmpty, plateStainlessSteel],
+	[itemReactorCasing, itemPiston, itemReactorCasing]]);
+	
+# Reactor Glass
+recipes.remove(itemReactorGlass);
+recipes.addShaped(itemReactorGlass, [
+	[glassHardened, itemReactorCasing, glassHardened]]);
+	
+# Turbine Glass
+recipes.remove(itemTurbineGlass);
+recipes.addShaped(itemTurbineGlass, [
+	[glassHardened, itemTurbineHousing, glassHardened]]);
+
+# Cyanite Rercprocessor
+recipes.remove(itemReprocessorCyanite);
+recipes.addShaped(itemReprocessorCyanite, [
+	[itemReactorCasing, plateStainlessSteel, itemReactorCasing],
+	[itemPiston, itemFuelRodYellorium, itemPiston],
+	[itemReactorCasing, dustRedstone, itemReactorCasing]]);
+	
+# Turbine Housing
+recipes.remove(itemTurbineHousing);
+recipes.addShaped(itemTurbineHousing * 4, [
+	[plateStainlessSteel, ingotGraphite, plateStainlessSteel],
+	[itemQuartzNether, ingotCyanite, itemQuartzNether],
+	[plateStainlessSteel, ingotGraphite, plateStainlessSteel]]);
+	
+# Turbine Fluid Port
+recipes.remove(itemPortTurbineFluid);
+recipes.addShaped(itemPortTurbineFluid, [
+	[itemTurbineHousing, null, itemTurbineHousing],
+	[plateStainlessSteel, bucketEmpty, plateStainlessSteel],
+	[itemTurbineHousing, itemPiston, itemTurbineHousing]]);
+	
+# Turbine Rotor Bearing
+recipes.remove(itemTurbineRotorBearing);
+recipes.addShaped(itemTurbineRotorBearing, [
+	[itemTurbineHousing, itemTurbineRotorShaft, itemTurbineHousing],
+	[gemDiamond, gearDiamond, gemDiamond],
+	[itemTurbineHousing, itemTurbineRotorShaft, itemTurbineHousing]]);
+	
+# Turbine Rotor Shaft
+recipes.remove(itemTurbineRotorShaft);
+recipes.addShaped(itemTurbineRotorShaft, [
+	[plateSteel, ingotCyanite, plateSteel]]);
+	
+# Turbine Rotor Blade
+recipes.remove(itemTurbineRotorBlade);
+recipes.addShaped(itemTurbineRotorBlade, [
+	[ingotCyanite, plateSteel, plateSteel]]);
