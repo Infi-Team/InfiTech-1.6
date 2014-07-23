@@ -2,6 +2,10 @@
 
 Issue Tracker and Changelogs
 
+* Infinity team website: http://infinity-minecraft.co.uk
+* FTB Thread: http://bit.ly/FTBInfinity
+* FTB Pack code: 164infinity
+
 ### ModList:
 * Applied Energistics by AlgorithmX - http://ae1.ae-mod.info/
 * AutoUtils by Automatic_Maiden - http://www.minecraftforum.net/topic/1749374-164smpforge-chisel/
